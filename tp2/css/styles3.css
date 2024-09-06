@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 576px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 20px;
+}
+
+.menuIcon {
+  width: 25px;
+  height: auto;
+}
+
+.main {
+  max-width: 100%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userImg{
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+  
+}
+
+.name, .desc{
+  text-align: center;
+}
+
+.button{
+  background-color: aliceblue;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}

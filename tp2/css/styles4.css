@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 992px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 20px;
+  }
+  
+  .menuIcon {
+    width: 25px;
+    height: auto;
+  }
+  
+  .main {
+    max-width: 100%;
+  }
+  
+  .container{
+    flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+    
+  }
+  
+  .userImg{
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: right;
+    margin-left: 80px;
+  }
+  
+  .name {
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .desc{
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .textos{
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .button{
+    padding-top: 1990px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+  }
